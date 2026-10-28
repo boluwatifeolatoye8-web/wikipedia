@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #101418;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 200px;
+    position: absolute;
+    top: 35%;
+    right: 42%;
+}
+.header{
+    position: absolute;
+    top: 10%;
+     left: 45%;
+    color: #ffffff;
+    h2{
+     font-size: 32px;
+       }
+    
+    p{
+        font-size: 15px;
+    }
+}
+strong{
+    color: #88a3e8;
+    padding: 20px;
+}
+strong:hover{
+    text-decoration: underline;
+    color: #88a3e8;
+}
+small{
+    display: block;
+    color: #eef2fb;
+    
+}
+
+.container:nth-child(1){
+    position: absolute; 
+    top: 25%;
+    left: 37%;
+}
+.container:nth-child(2){
+     position: absolute;
+    top: 25%;
+    right: 37%;
+}
+.container:nth-child(3){
+     position: absolute;
+    top: 35%;
+    left: 33%;
+}
+.container:nth-child(4){
+     position: absolute;
+    top: 36%;
+    right: 32%;
+}
+.container:nth-child(5){
+  position: absolute;
+    top: 45%;
+    left: 31% ;   
+}
+.container:nth-child(6){
+   position: absolute;
+    top: 46%;
+    right: 30%;  
+}
+.container:nth-child(7){
+    position: absolute;
+    top: 55%;
+    left :32% ; 
+}
+.container:nth-child(8){
+    position: absolute;
+    top: 56%;
+    left:34% ; 
+}
+.container:nth-child(9){
+  position: absolute;
+    top: 56%;
+    right:30%
+}
+.container:nth-child(10){
+  position: absolute;
+    top: 68%;
+    left: 36% ;   
+}
+.container:nth-child(11){
+    position: absolute;
+    top: 69%;
+    right: 35%;
+}
+input{
+    background-image: url(/andrsrxn--search.svg);
+    background: no-repeat;
+    margin: 500px 450px;
+    margin-bottom: 10px;
+    width: 450px;
+    height: 50px;
+    border:2px solid #88a3e8;
+    background-color: #101418;
+}
+hr{
+    width: 150px;
+    height: 2px;
+    margin:  40px 0px;
+}
+button{
+    width: 700px;
+    margin: 20px;
+    padding: 2px 20px;
+    font-size: 16px;
+    color: #88a3e8;
+    background-color: #101418;
+    border: 2px solid #88a3e8;
+}
